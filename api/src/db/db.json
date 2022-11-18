@@ -6,31 +6,27 @@
   "pet": [
     {
       "id": "123",
-
       "createdAt": "123123123",
-
       "name": "pet1",
-
       "type": "dog"
     },
     {
       "id": "124",
-
       "createdAt": "123123123",
-
       "name": "pet2",
-
       "type": "dog"
     },
-
     {
       "id": "125",
-
       "createdAt": "123123123",
-
       "name": "pet3",
-
       "type": "cat"
+    },
+    {
+      "id": "4xWCLuBmsklTkwaX041ZX",
+      "createdAt": 1668729333114,
+      "name": "Stephie",
+      "type": "dog"
     }
   ]
 }

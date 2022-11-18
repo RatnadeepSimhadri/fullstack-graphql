@@ -6,11 +6,17 @@
 module.exports = {
   Query: {
     pets(_,{ input }, {models}) {
-      console.log(models)
       let allpets = models.Pet.findMany()
       return allpets.filter(pet => pet.type === input.type);
     }
   },
+
+  Mutation: {
+    pet(_,{input},{models}) {
+        return models.Pet.create(input);
+    }
+  },
+  
   Pet: {
     img(pet,{input}, {models}) {
       return pet.type === 'DOG'
